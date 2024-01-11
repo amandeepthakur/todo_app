@@ -55,7 +55,7 @@ class _ToDoListScreenState extends State<ToDoListScreen> {
       context: context,
       builder: (context) {
         return AlertDialog(
-          title: Text('Add a new item'),
+          title: Text('Add a new task'),
           content: TextField(
             controller: todoController,
           ),
